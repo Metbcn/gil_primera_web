@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html class="light" lang="es">
+<head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <title>José Gil · Procurador en Pontevedra</title>
+  <meta name="description" content="Servicio profesional de procurador para abogados, despachos, empresas y particulares en Pontevedra. Rigor procesal, agilidad y trato cercano."/>
+  <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;0,700;1,400&family=Manrope:wght@200;300;400;500;600;700&display=swap" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
+  <script id="tailwind-config">
+    tailwind.config = {
+      darkMode: "class",
+      theme: {
+        extend: {
+          colors: {
+            "on-tertiary-fixed": "#261900",
+            "on-secondary-fixed-variant": "#6b392e",
+            "on-primary": "#ffffff",
+            "tertiary-fixed": "#ffdea5",
+            "on-surface-variant": "#44474d",
+            "surface-tint": "#4b5f7e",
+            "tertiary-container": "#3e2b00",
+            "on-secondary-container": "#7b463b",
+            "inverse-on-surface": "#f3f0eb",
+            "surface": "#fcf9f4",
+            "surface-container-lowest": "#ffffff",
+            "secondary-fixed": "#ffdad3",
+            "error": "#ba1a1a",
+            "surface-variant": "#e5e2dd",
+            "on-secondary-fixed": "#350f08",
+            "inverse-surface": "#31302d",
+            "primary-container": "#1a2f4b",
+            "on-surface": "#1c1c19",
+            "surface-bright": "#fcf9f4",
+            "on-background": "#1c1c19",
+            "secondary-container": "#ffb8a9",
+            "tertiary-fixed-dim": "#e9c176",
+            "background": "#fcf9f4",
+            "primary-fixed": "#d4e3ff",
+            "outline-variant": "#c4c6ce",
+            "on-primary-container": "#8397b8",
+            "outline": "#74777e",
+            "inverse-primary": "#b3c8eb",
+            "on-primary-fixed": "#041c37",
+            "on-secondary": "#ffffff",
+            "error-container": "#ffdad6",
+            "on-error-container": "#93000a",
+            "on-error": "#ffffff",
+            "on-tertiary": "#ffffff",
+            "primary": "#021a35",
+            "primary-fixed-dim": "#b3c8eb",
+            "secondary": "#875044",
+            "on-tertiary-container": "#b4914b",
+            "tertiary": "#241700",
+            "surface-container-highest": "#e5e2dd",
+            "on-primary-fixed-variant": "#334865",
+            "surface-dim": "#dcdad5",
+            "secondary-fixed-dim": "#fcb5a6",
+            "surface-container": "#f0ede9",
+            "surface-container-low": "#f6f3ee",
+            "surface-container-high": "#ebe8e3",
+            "on-tertiary-fixed-variant": "#5d4201"
+          },
+          borderRadius: {
+            "DEFAULT": "0.125rem",
+            "lg": "0.25rem",
+            "xl": "0.5rem",
+            "full": "0.75rem"
+          },
+          fontFamily: {
+            "headline": ["Noto Serif"],
+            "body": ["Manrope"],
+            "label": ["Manrope"]
+          }
+        },
+      },
+    }
+  </script>
+  <style>
+    .material-symbols-outlined {
+      font-variation-settings: 'FILL' 0, 'wght' 300, 'GRAD' 0, 'opsz' 24;
+    }
+    body { font-family: 'Manrope', sans-serif; }
+    h1, h2, h3, .font-serif { font-family: 'Noto Serif', serif; }
+    .glass-effect {
+      background: rgba(252, 249, 244, 0.7);
+      backdrop-filter: blur(12px);
+    }
+  </style>
+</head>
+<body class="bg-surface text-on-surface">
+
+  <!-- Top Navigation -->
+  <nav class="fixed top-0 w-full z-50 bg-[#fcf9f4] shadow-sm flex items-center px-12 py-6 max-w-screen-2xl mx-auto left-1/2 -translate-x-1/2 justify-center">
+    <div class="text-xl font-serif tracking-tighter text-[#021a35]">José Gil</div>
+  </nav>
+
+  <!-- Hero Section -->
+  <header class="relative min-h-screen flex items-center pt-24">
+    <div class="absolute inset-0 z-0 overflow-hidden">
+      <img
+        class="w-full h-full object-cover grayscale-[0.3] brightness-[0.4] object-top"
+        src="jose_gil.png"
+        alt="Retrato profesional de José Gil, procurador, en un despacho jurídico"
+      />
+      <div class="absolute inset-0 bg-gradient-to-tr from-primary/80 to-transparent"></div>
+    </div>
+    <div class="relative z-10 w-full px-12 max-w-screen-2xl mx-auto">
+      <div class="max-w-4xl">
+        <span class="text-secondary-fixed-dim text-sm tracking-[0.3em] uppercase mb-6 block font-medium">Procurador en Pontevedra</span>
+        <h1 class="text-5xl md:text-7xl text-on-primary mb-8 leading-tight font-bold">JOSÉ GIL · PROCURADOR EN PONTEVEDRA</h1>
+        <p class="text-2xl text-primary-fixed mb-6 font-serif italic">Rigor procesal, agilidad y trato cercano</p>
+        <p class="text-lg text-primary-fixed/80 max-w-2xl mb-12 font-light leading-relaxed">Servicio profesional de procurador para abogados, despachos, empresas y particulares en Pontevedra.</p>
+        <div class="flex flex-wrap gap-4 mb-12">
+          <a href="tel:628414530" class="bg-secondary text-white px-8 py-4 font-bold uppercase text-xs tracking-widest hover:brightness-110 transition-all">Llamar ahora</a>
+          <a href="https://wa.me/34628414530" target="_blank" rel="noopener noreferrer" class="bg-surface/10 backdrop-blur-md border border-white/20 text-white px-8 py-4 font-bold uppercase text-xs tracking-widest hover:bg-white/20 transition-all">WhatsApp</a>
+          <a href="mailto:jmgilprocurador@gmail.com" class="bg-primary text-white px-8 py-4 font-bold uppercase text-xs tracking-widest hover:bg-primary-container transition-all">Solicitar información</a>
+        </div>
+        <div class="flex flex-col md:flex-row gap-8 text-on-primary/70 text-sm font-medium tracking-wide">
+          <span class="flex items-center gap-2">
+            <span class="material-symbols-outlined text-secondary text-sm">call</span>
+            628 41 45 30
+          </span>
+          <span class="flex items-center gap-2">
+            <span class="material-symbols-outlined text-secondary text-sm">mail</span>
+            jmgilprocurador@gmail.com
+          </span>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Section 1: Metodología -->
+  <section class="py-32 bg-surface">
+    <div class="max-w-screen-2xl mx-auto px-12 grid grid-cols-1 md:grid-cols-12 gap-16 items-center">
+      <div class="md:col-span-7">
+        <span class="text-secondary text-sm uppercase tracking-widest mb-4 block">Metodología</span>
+        <h2 class="text-4xl md:text-5xl text-primary mb-8 leading-snug">Un servicio profesional para que el procedimiento avance</h2>
+        <div class="space-y-6 text-on-surface-variant leading-relaxed text-lg font-light">
+          <p>En el ámbito judicial, cada trámite cuenta. Una buena gestión procesal exige control, diligencia y capacidad de respuesta. Mi labor es representar formalmente a la parte ante los tribunales, coordinar las actuaciones procesales y asegurar un seguimiento constante del asunto, facilitando la comunicación entre cliente, abogado y juzgado.</p>
+          <p class="font-serif italic text-primary-container text-xl border-l-4 border-secondary pl-6 py-2">Porque en justicia no solo importa el fondo del asunto. También importa que todo esté en orden y a tiempo.</p>
+        </div>
+      </div>
+      <div class="md:col-span-5 relative">
+        <div class="aspect-[4/5] bg-surface-container overflow-hidden rounded-2xl">
+          <img
+            class="w-full h-full object-cover rounded-2xl"
+            src="jose_gil_despacho (1).png"
+            alt="Despacho profesional de José Gil, procurador en Pontevedra"
+          />
+        </div>
+        <div class="absolute -bottom-8 -left-8 bg-primary p-8 hidden lg:block rounded-xl">
+          <span class="text-on-primary text-3xl font-serif">Pontevedra</span>
+          <p class="text-primary-fixed/60 text-xs uppercase tracking-widest mt-2">Área de Actuación</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Section 2: Servicios -->
+  <section class="py-32 bg-surface-container-low">
+    <div class="max-w-screen-2xl mx-auto px-12">
+      <div class="mb-20 text-center max-w-3xl mx-auto">
+        <h2 class="text-4xl text-primary mb-4">Servicios Procesales</h2>
+        <p class="text-on-surface-variant font-light">Gestión integral y representación de confianza en todos los partidos judiciales.</p>
+      </div>
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-px bg-outline-variant/20">
+        <div class="bg-surface p-12 hover:bg-surface-container-lowest transition-colors group">
+          <span class="material-symbols-outlined text-4xl text-secondary mb-6 block">account_balance</span>
+          <h3 class="text-xl text-primary mb-4 font-semibold">Representación procesal</h3>
+          <p class="text-on-surface-variant font-light leading-relaxed">Ante todos los juzgados y tribunales de la provincia para una defensa técnica impecable.</p>
+        </div>
+        <div class="bg-surface p-12 hover:bg-surface-container-lowest transition-colors">
+          <span class="material-symbols-outlined text-4xl text-secondary mb-6 block">notifications_active</span>
+          <h3 class="text-xl text-primary mb-4 font-semibold">Notificaciones</h3>
+          <p class="text-on-surface-variant font-light leading-relaxed">Gestión inmediata de notificaciones, citaciones y emplazamientos recibidos.</p>
+        </div>
+        <div class="bg-surface p-12 hover:bg-surface-container-lowest transition-colors">
+          <span class="material-symbols-outlined text-4xl text-secondary mb-6 block">description</span>
+          <h3 class="text-xl text-primary mb-4 font-semibold">Presentación de escritos</h3>
+          <p class="text-on-surface-variant font-light leading-relaxed">Control exhaustivo en la presentación de escritos y documentación ante los órganos judiciales.</p>
+        </div>
+        <div class="bg-surface p-12 hover:bg-surface-container-lowest transition-colors">
+          <span class="material-symbols-outlined text-4xl text-secondary mb-6 block">monitoring</span>
+          <h3 class="text-xl text-primary mb-4 font-semibold">Seguimiento continuo</h3>
+          <p class="text-on-surface-variant font-light leading-relaxed">Monitorización diaria del estado de cada expediente para informar puntualmente al letrado.</p>
+        </div>
+        <div class="bg-surface p-12 hover:bg-surface-container-lowest transition-colors">
+          <span class="material-symbols-outlined text-4xl text-secondary mb-6 block">schedule</span>
+          <h3 class="text-xl text-primary mb-4 font-semibold">Control de plazos</h3>
+          <p class="text-on-surface-variant font-light leading-relaxed">Vigilancia estricta de plazos procesales para evitar cualquier tipo de preclusión.</p>
+        </div>
+        <div class="bg-surface p-12 hover:bg-surface-container-lowest transition-colors">
+          <span class="material-symbols-outlined text-4xl text-secondary mb-6 block">handshake</span>
+          <h3 class="text-xl text-primary mb-4 font-semibold">Coordinación judicial</h3>
+          <p class="text-on-surface-variant font-light leading-relaxed">Enlace fluido y eficaz entre abogados, clientes y los diferentes órganos del juzgado.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Section 3: Valores -->
+  <section class="py-32 bg-primary overflow-hidden relative">
+    <div class="absolute right-0 top-0 w-1/3 h-full opacity-10 pointer-events-none">
+      <span class="material-symbols-outlined text-[30rem] text-on-primary" style="font-variation-settings: 'FILL' 1;">gavel</span>
+    </div>
+    <div class="max-w-screen-2xl mx-auto px-12 relative z-10">
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12">
+        <div>
+          <div class="w-12 h-1 bg-secondary mb-8"></div>
+          <h3 class="text-2xl text-on-primary font-serif mb-4">Rigor</h3>
+          <p class="text-primary-fixed/70 font-light">Atención precisa y técnica en cada actuación procesal y trámite administrativo.</p>
+        </div>
+        <div>
+          <div class="w-12 h-1 bg-secondary mb-8"></div>
+          <h3 class="text-2xl text-on-primary font-serif mb-4">Agilidad</h3>
+          <p class="text-primary-fixed/70 font-light">Seguimiento constante y proactivo para evitar retrasos innecesarios en el juzgado.</p>
+        </div>
+        <div>
+          <div class="w-12 h-1 bg-secondary mb-8"></div>
+          <h3 class="text-2xl text-on-primary font-serif mb-4">Cercanía</h3>
+          <p class="text-primary-fixed/70 font-light">Trato directo, claro y accesible para una comunicación fluida entre profesionales.</p>
+        </div>
+        <div>
+          <div class="w-12 h-1 bg-secondary mb-8"></div>
+          <h3 class="text-2xl text-on-primary font-serif mb-4">Compromiso</h3>
+          <p class="text-primary-fixed/70 font-light">Implicación real y responsable en la gestión de cada asunto encomendado.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Section 4: Contacto Secundario -->
+  <section class="py-32 bg-surface-container-high">
+    <div class="max-w-screen-2xl mx-auto px-12">
+      <div class="flex flex-col lg:flex-row gap-20">
+        <div class="lg:w-1/2">
+          <h2 class="text-4xl text-primary mb-8 leading-tight">Atención profesional en Pontevedra</h2>
+          <p class="text-lg text-on-surface-variant font-light mb-12 max-w-xl">Si necesita un procurador que le ofrezca seriedad, seguimiento y respuesta, puede contactar directamente para recibir atención personalizada.</p>
+          <div class="space-y-6 mb-12">
+            <div class="flex items-center gap-6 group">
+              <div class="w-14 h-14 bg-primary flex items-center justify-center rounded-lg">
+                <span class="material-symbols-outlined text-on-primary">call</span>
+              </div>
+              <div>
+                <p class="text-xs uppercase tracking-widest text-on-surface-variant mb-1">Teléfono</p>
+                <a href="tel:628414530" class="text-xl text-primary font-bold hover:text-secondary transition-colors">628 41 45 30</a>
+              </div>
+            </div>
+            <div class="flex items-center gap-6 group">
+              <div class="w-14 h-14 bg-secondary flex items-center justify-center rounded-lg">
+                <span class="material-symbols-outlined text-on-primary">mail</span>
+              </div>
+              <div>
+                <p class="text-xs uppercase tracking-widest text-on-surface-variant mb-1">Email</p>
+                <a href="mailto:jmgilprocurador@gmail.com" class="text-xl text-primary font-bold hover:text-secondary transition-colors">jmgilprocurador@gmail.com</a>
+              </div>
+            </div>
+          </div>
+          <div class="flex flex-wrap gap-4">
+            <a href="tel:628414530" class="bg-primary text-white px-8 py-4 font-bold uppercase text-xs tracking-widest hover:opacity-90 transition-opacity">Contactar</a>
+            <a href="https://wa.me/34628414530" target="_blank" rel="noopener noreferrer" class="bg-surface border border-outline text-primary px-8 py-4 font-bold uppercase text-xs tracking-widest hover:bg-surface-variant transition-colors">WhatsApp</a>
+          </div>
+        </div>
+        <div class="lg:w-1/2">
+          <div class="aspect-video w-full bg-surface-variant overflow-hidden grayscale rounded-2xl">
+            <iframe
+              class="w-full h-full rounded-2xl"
+              style="border:0; filter: grayscale(1) contrast(1.1);"
+              loading="lazy"
+              allowfullscreen
+              referrerpolicy="no-referrer-when-downgrade"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11890.648944748703!2d-8.647777!3d42.431416!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd2f621e3a4b5a73%3A0x6b70a63dfb56a9!2sPontevedra!5e0!3m2!1ses!2ses!4v1700000000000!5m2!1ses!2ses"
+            ></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-[#021a35] w-full py-16 px-12 border-t border-[#4b5f7e]/20 text-[#fcf9f4]">
+    <div class="max-w-screen-2xl mx-auto flex flex-col md:flex-row justify-between items-start gap-12">
+      <div class="max-w-md">
+        <div class="text-lg font-serif text-[#fcf9f4] mb-4">José Gil · Procurador en Pontevedra</div>
+        <p class="text-sm font-light leading-relaxed opacity-70">© 2026 José Gil Procurador. Todos los derechos reservados. Excelencia profesional en representación jurídica.</p>
+      </div>
+      <div class="grid grid-cols-1 sm:grid-cols-2 gap-12 md:gap-24">
+        <div class="flex flex-col gap-4">
+          <span class="text-xs uppercase tracking-widest text-[#875044] font-bold">Legal</span>
+          <a class="text-sm font-light text-[#fcf9f4]/70 hover:text-[#fcf9f4] hover:translate-x-1 duration-200 transition-all" href="/aviso-legal.html">Aviso legal</a>
+          <a class="text-sm font-light text-[#fcf9f4]/70 hover:text-[#fcf9f4] hover:translate-x-1 duration-200 transition-all" href="/politica-privacidad.html">Política de privacidad</a>
+          <a class="text-sm font-light text-[#fcf9f4]/70 hover:text-[#fcf9f4] hover:translate-x-1 duration-200 transition-all" href="/politica-cookies.html">Política de cookies</a>
+        </div>
+        <div class="flex flex-col gap-4">
+          <span class="text-xs uppercase tracking-widest text-[#875044] font-bold">Contacto</span>
+          <a href="tel:628414530" class="text-sm font-light text-[#fcf9f4]/70 hover:text-[#fcf9f4] duration-200 transition-all">628 41 45 30</a>
+          <a href="mailto:jmgilprocurador@gmail.com" class="text-sm font-light text-[#fcf9f4]/70 hover:text-[#fcf9f4] duration-200 transition-all">jmgilprocurador@gmail.com</a>
+          <a href="https://wa.me/34628414530" target="_blank" rel="noopener noreferrer" class="text-sm font-light text-[#fcf9f4]/70 hover:text-[#fcf9f4] duration-200 transition-all">WhatsApp</a>
+        </div>
+      </div>
+    </div>
+    <div class="max-w-screen-2xl mx-auto mt-16 pt-8 border-t border-[#4b5f7e]/10 flex flex-col md:flex-row justify-between items-center gap-6 opacity-40 text-[10px] uppercase tracking-widest">
+      <p>Pontevedra · Representación Procesal</p>
+      <p>Diseño · Identidad Legal Profesional</p>
+    </div>
+  </footer>
+
+  <!-- Banner de cookies -->
+  <div
+    id="cookie-banner"
+    class="fixed bottom-0 left-0 right-0 z-50 bg-[#021a35] border-t border-[#4b5f7e]/40 px-6 md:px-12 py-5 hidden"
+    role="dialog"
+    aria-label="Aviso de cookies"
+  >
+    <div class="max-w-screen-2xl mx-auto flex flex-col sm:flex-row items-start sm:items-center gap-4 justify-between">
+      <p class="text-[#d4e3ff]/80 text-sm font-light leading-relaxed max-w-3xl">
+        Este sitio utiliza cookies técnicas necesarias para su funcionamiento y cookies de terceros (Google Maps).
+        Consulte nuestra <a href="/politica-cookies.html" class="text-[#fcb5a6] hover:text-[#fcf9f4] underline underline-offset-2 transition-colors">Política de Cookies</a> para más información.
+      </p>
+      <div class="flex gap-3 shrink-0">
+        <button
+          onclick="rejectCookies()"
+          class="text-[#d4e3ff]/60 hover:text-[#d4e3ff] text-xs font-semibold uppercase tracking-widest transition-colors px-4 py-2"
+        >
+          Solo necesarias
+        </button>
+        <button
+          onclick="acceptCookies()"
+          class="bg-[#875044] text-white text-xs font-bold uppercase tracking-widest px-6 py-3 hover:brightness-110 transition-all"
+        >
+          Aceptar todas
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    // --- Cookies banner ---
+    (function () {
+      const consent = localStorage.getItem('cookie_consent');
+      if (!consent) {
+        document.getElementById('cookie-banner').style.display = 'block';
+      }
+    })();
+
+    function acceptCookies() {
+      localStorage.setItem('cookie_consent', 'all');
+      document.getElementById('cookie-banner').style.display = 'none';
+    }
+
+    function rejectCookies() {
+      localStorage.setItem('cookie_consent', 'necessary');
+      document.getElementById('cookie-banner').style.display = 'none';
+    }
+
+  </script>
+</body>
+</html>
